@@ -46,7 +46,7 @@ namespace WebApplication1
                 await context.Response.WriteAsync("Ladno");
             });
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
